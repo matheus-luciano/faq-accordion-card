@@ -1,0 +1,15 @@
+@media(min-width: 56em){
+    .card{
+        display: flex;
+        margin: 3rem;
+        max-width: 56rem;
+        margin: 6rem auto;
+        
+    }
+    
+    .card-image, .card-text{
+        flex: 1;
+    }
+    
+    
+}

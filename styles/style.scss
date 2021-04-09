@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mediaQueries';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 3rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient($soft-Violet, $soft-Blue);
+}
+
+.card{
+    background: white;
+    border-radius: 2rem;
+    
+}
+
+.card-image img{
+    width: 100%;
+    height: auto;
+    max-width: 25rem;
+}
+
+.card-text{
+
+}
